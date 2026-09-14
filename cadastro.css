@@ -1,0 +1,113 @@
+:root {
+    --verde-escuro: #008000;
+    --branco-liso: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    /*background-image: url("imagens/LOGO\ DA\ STARTAP.jpeg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    overflow-y: auto;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    background-color: var(--branco-liso);
+    width: 500px;
+    min-height: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.box h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.box2{
+    background-color: var(--branco-liso);
+    width: 500px;
+    min-height: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.box2 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.box2 h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+select {
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: lightgreen;
+}
+
+
+input[type="submit"] {
+    background-color: var(--verde-escuro);
+    color: var(--branco-liso);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

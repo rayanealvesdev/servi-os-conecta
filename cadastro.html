@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços Conecta</title>
+
+    <link rel="stylesheet" href="cadastro.css">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="inicial.html">INICIO</a>
+        <a href=""></a>
+    </header>
+
+    <main>
+
+        <section>
+
+            <div class="box">
+
+                <img 
+                    src="imagens/LOGO DO APP.jpeg" 
+                    alt="Imagem de serviços"
+                >
+
+                <h2>CRIAR CONTA</h2>
+
+                <form name="cad_user" action="bd/senhas.html" method="get">
+
+                    <label for="nome">Nome Completo</label>
+                    <input 
+                        type="text" 
+                        name="nome" 
+                        id="nome" 
+                        required
+                    >
+
+                    <label for="senha">Informe sua Senha:</label>
+                    <input 
+                        type="password" 
+                        name="senha" 
+                        id="senha" 
+                        maxlength="8"
+                    >
+
+                    <label for="email">Email</label>
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="exemplo@suaempresa.com.br"
+                    >
+
+                    <label for="data">Data de Nascimento:</label>
+                    <input 
+                        type="date" 
+                        name="data" 
+                        id="data"
+                    >
+
+                     <label for="CEP">CEP</label>
+                    <input 
+                        type="text" 
+                        name="cep" 
+                        id="cep"
+                        maxlength="9"
+                        pattern="\d{5}-\d{3}" 
+                        placeholder="XXXXX-XXX"
+                    >
+
+                     <label for="contato">WHATSAPP</label>
+                    <input 
+                        type="text" 
+                        name="contato" 
+                        id="contato"
+                        maxlength=""
+                        placeholder="(81) 9XXXX-XXXX"
+                    >
+
+                    <label for="CPF">CPF</label>
+                    <input 
+                        type="text" 
+                        name="CPF" 
+                        id="CPF"
+                        maxlength=""
+                        placeholder="XXX-XXX-XXX-XX">
+
+                        <p>BAIRRO</p>
+
+                        <br>
+
+                        <select name="cidade" id="">
+
+                        <option value="BOA VIAGEM">BOA VIAGEM</option>
+                        <option value="PINA">PINA</option>
+                        <option value="IMBIRIBEIRA">IMBIRIBEIRA</option>
+                        <option value="IPSEP">IPSEP</option>
+                        <option value="IBURA">IBURA</option>
+                        <option value="JORDÃO">JORDÃO</option>
+                        <option value="COHAB">COHAB</option>
+                        <option value="VÁRZEA">VÁRZEA</option>
+                        <option value="CIDADE UNIVERSITÁRIA">CIDADE UNIVERSITÁRIA</option>
+                        <option value="ENGENHO DO MEIO">ENGENHO DO MEIO</option>
+                        <option value="MADALENA">MADALENA</option>
+                        <option value="TORRE">TORRE</option>
+                        <option value="CORDEIRO">CORDEIRO</option>
+                        <option value="CASA FORTE">CASA FORTE</option>
+                        <option value="CASA AMARELA">CASA AMARELA</option>
+                        <option value="ESPINHEIRO">ESPINHEIRO</option>
+                        <option value="GRAÇAS">GRAÇAS</option>
+                        <option value="AFLITOS">AFLITOS</option>
+                        <option value="ENCRUZILHADA">ENCRUZILHADA</option>
+                        <option value="SANTO AMARO">SANTO AMARO</option>
+                        <option value="ILHA DO LEITE">ILHA DO LEITE</option>
+                        <option value="RECIFE">RECIFE</option>
+                        <option value="SÃO JOSÉ">SÃO JOSÉ</option>
+                        <option value="SANTO ANTÔNIO">SANTO ANTÔNIO</option>
+                        <option value="BOA VISTA">BOA VISTA</option>
+
+                        </select>
+
+                        <br>
+                        <br>
+
+                    <input type="submit" value="CADASTRAR">
+
+                </form>
+
+            </div>
+
+        <!--    <div class="box2">
+
+                <img 
+                    src="imagens/LOGO DO APP.jpeg" 
+                    alt="Imagem de serviços"
+                >
+
+                <h2>CADASTRO DO USER</h2>
+
+                <form name="cad_user" action="bd/senhas.html" method="get">
+
+                    <label for="nome">Informe seu Nome:</label>
+                    <input 
+                        type="text" 
+                        name="nome" 
+                        id="nome" 
+                        required
+                    >
+
+                    <label for="senha">Informe sua Senha:</label>
+                    <input 
+                        type="password" 
+                        name="senha" 
+                        id="senha" 
+                        maxlength="8"
+                    >
+
+                    <label for="email">Informe seu Email:</label>
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="exemplo@suaempresa.com.br"
+                    >
+
+                    <label for="data">Data de Nascimento:</label>
+                    <input 
+                        type="date" 
+                        name="data" 
+                        id="data"
+                    >
+
+                    <input type="submit" value="CADASTRAR">
+
+                </form>
+
+            </div> -->
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
